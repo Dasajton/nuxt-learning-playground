@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-gradient-to-r from-indigo-500 to-teal-500 text-teal-50 dark:from-indigo-900 dark:to-teal-600;
+    }
+    h1 {
+        @apply text-center text-3xl text-teal-50;
+    }
+    h2 {
+        @apply text-center text-2xl text-teal-50;
+    }
+}
